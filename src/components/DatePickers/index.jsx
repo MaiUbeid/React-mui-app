@@ -20,6 +20,26 @@ class DatePickers extends Component {
           value={dates}
           numberOfCalendars={2}
         />
+        <div>
+          {dates ? (
+            dates.start && dates.end ? (
+              <div>
+                <input type="text" value={dates.start.format('YYYY/MM/DD')} />
+                <input type="text" value={dates.end.format('YYYY/MM/DD')} />
+              </div>
+            ) : (
+              <div>
+                <input type="text" value="" />
+                <input type="text" value="" />
+              </div>
+            )
+          ) : (
+            <div>
+              <input type="text" value="" />
+              <input type="text" value="" />
+            </div>
+          )}
+        </div>
       </div>
     );
   }

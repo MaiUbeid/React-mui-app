@@ -1,4 +1,4 @@
-service: my-second-app
+service: mui-app
 runtime: nodejs10
 env: flex
 
