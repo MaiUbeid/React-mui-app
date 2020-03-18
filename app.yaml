@@ -1,4 +1,4 @@
-service: mui-app
+service: my-second-app
 runtime: nodejs10
 env: flex
 
@@ -13,4 +13,3 @@ handlers:
  - url: /(.*)
  static_files: build/\1
  upload: build/(.*)
- 
