@@ -1,7 +1,7 @@
 runtime: nodejs10
 env: flex
 
-manual_scaling:
+automatic_scaling:
   min_num_instances: 1
 
 handlers:
