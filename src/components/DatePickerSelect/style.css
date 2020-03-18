@@ -1,0 +1,32 @@
+.DateRangePicker_picker {
+  z-index: 2;
+}
+
+.DateRangePickerInput__withBorder {
+  border: 1px solid #ebe6ef;
+}
+
+.DateInput_input__focused {
+  border-bottom: 2px solid #7a46a0;
+}
+
+.CalendarDay__selected,
+.CalendarDay__selected:active,
+.CalendarDay__selected:hover {
+  background: #7a46a0;
+  border: 1px double #7a46a0;
+  color: #fff;
+}
+
+.CalendarDay__selected_span {
+  background: #7a46a0;
+  border: 1px double #7a46a0;
+  color: #fff;
+}
+
+.CalendarDay__selected_span:active,
+.CalendarDay__selected_span:hover {
+  background: #7a46a0;
+  border: 1px double #7a46a0;
+  color: #fff;
+}
