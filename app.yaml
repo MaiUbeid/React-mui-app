@@ -1,4 +1,3 @@
-service: mui-app
 runtime: nodejs10
 env: flex
 
