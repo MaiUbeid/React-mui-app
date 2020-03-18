@@ -1,8 +1,8 @@
 runtime: nodejs10
 env: flex
 
-manual_scaling:
-  instances: 1
+automatic_scaling:
+  min_num_instances: 1
 
 handlers:
   - url: /static/js/(.*)
