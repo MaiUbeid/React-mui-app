@@ -9,7 +9,8 @@ import Buttons from '../Buttons';
 import Paginations from '../Paginations';
 import Inputs from '../Inputs';
 import StepForm from '../StepForm';
-import Datepickers from '../DatePickers';
+import DatePickerSelect from '../DatePickerSelect';
+import DatePickers from '../DatePickers';
 import Footer from '../Footer';
 
 import './App.css';
@@ -28,7 +29,9 @@ function App() {
           <h1>Buttons</h1>
           <Buttons />
           <h1>Date Picker</h1>
-          <Datepickers />
+          <DatePickers />
+          <h1>Select date picker</h1>
+          <DatePickerSelect />
           <h1>Pagination</h1>
           <Paginations />
           <h1>Inputs</h1>
